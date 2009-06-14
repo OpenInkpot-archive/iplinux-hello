@@ -1,0 +1,21 @@
+Source: hello
+Section: core
+Priority: extra
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
+XCS-Cross-Build-Depends:
+
+Package: hello
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: The classic greeting, and a good example
+ The hello program produces a familiar, friendly greeting.
+ .
+ This is a example of how to do `minimal' IPlinux package, without library
+ dependencies and as such is of relative use. See `hello-full' and `ehello' for
+ the examples of how to deal with libraries, pkg-config and EFL GUI.
+ .
+ Unlike Debian, which does not have a "preferred" build tool, debhelper is a
+ recommended tool for IPlinux, so there is no CDBS or plain-dpkg `hello' packages.

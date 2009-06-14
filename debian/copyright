@@ -1,0 +1,16 @@
+Name: hello
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Source: http://git.iplinux.org/hello.git
+
+Copyright: 2009, Mikhail Gusarov <dottedmag@dottedmag.net>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public 
+ License can be found in the `/usr/share/common-licenses/GPL-2'
+ file.
+
+Files: debian/*
+Copyright: 2009, Mikhail Gusarov <dottedmag@dottedmag.net>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public 
+ License can be found in the `/usr/share/common-licenses/GPL-2'
+ file.
